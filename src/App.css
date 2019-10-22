@@ -20,3 +20,36 @@
 .App-link {
   color: #09d3ac;
 }
+
+.lines {
+  width: 100%;
+  height: 100%;
+}
+
+.line {
+  stroke: purple;
+  stroke-width: 2;
+}
+
+.circle {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: 2px solid purple;
+  background-color: purple;
+}
+
+body, html {
+  overflow: hidden;
+}
+
+.App svg {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}

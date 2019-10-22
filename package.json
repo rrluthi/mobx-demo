@@ -1,13 +1,17 @@
 {
-  "name": "mobx",
+  "name": "mobx-demo",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
     "react-scripts": "3.2.0"
   },
   "dependencies": {
+    "mobx": "^5.14.2",
+    "mobx-react": "^6.1.4",
     "react": "^16.10.2",
-    "react-dom": "^16.10.2"
+    "react-dom": "^16.10.2",
+    "react-draggable": "^4.0.3",
+    "uuidv4": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
